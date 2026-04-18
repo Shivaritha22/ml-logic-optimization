@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+*.egg
+
+# Datasets (too large for git)
+data/celeba/
+data/wider_face/
+
+# Logs and outputs
+logs/
+outputs/
+baseline/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Credentials
+.env
+kaggle.json
+.kaggle/
+
+# Build artifacts
+build/
+dist/
