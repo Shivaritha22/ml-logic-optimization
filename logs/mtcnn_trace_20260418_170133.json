@@ -1,0 +1,177 @@
+{
+  "saved_at": "2026-04-18T17:01:33",
+  "entry_count": 19,
+  "entries": [
+    {
+      "image_id": "000001.jpg",
+      "stage": "pnet_threshold",
+      "decision_type": "threshold",
+      "input_count": 2989,
+      "output_count": 36,
+      "rejected_count": 2953,
+      "value": 0.6
+    },
+    {
+      "image_id": "000001.jpg",
+      "stage": "pnet_nms_scale",
+      "decision_type": "nms",
+      "input_count": 36,
+      "output_count": 22,
+      "rejected_count": 14,
+      "value": 0.5
+    },
+    {
+      "image_id": "000001.jpg",
+      "stage": "pnet_threshold",
+      "decision_type": "threshold",
+      "input_count": 1386,
+      "output_count": 13,
+      "rejected_count": 1373,
+      "value": 0.6
+    },
+    {
+      "image_id": "000001.jpg",
+      "stage": "pnet_nms_scale",
+      "decision_type": "nms",
+      "input_count": 13,
+      "output_count": 8,
+      "rejected_count": 5,
+      "value": 0.5
+    },
+    {
+      "image_id": "000001.jpg",
+      "stage": "pnet_threshold",
+      "decision_type": "threshold",
+      "input_count": 616,
+      "output_count": 9,
+      "rejected_count": 607,
+      "value": 0.6
+    },
+    {
+      "image_id": "000001.jpg",
+      "stage": "pnet_nms_scale",
+      "decision_type": "nms",
+      "input_count": 9,
+      "output_count": 6,
+      "rejected_count": 3,
+      "value": 0.5
+    },
+    {
+      "image_id": "000001.jpg",
+      "stage": "pnet_threshold",
+      "decision_type": "threshold",
+      "input_count": 285,
+      "output_count": 14,
+      "rejected_count": 271,
+      "value": 0.6
+    },
+    {
+      "image_id": "000001.jpg",
+      "stage": "pnet_nms_scale",
+      "decision_type": "nms",
+      "input_count": 14,
+      "output_count": 9,
+      "rejected_count": 5,
+      "value": 0.5
+    },
+    {
+      "image_id": "000001.jpg",
+      "stage": "pnet_threshold",
+      "decision_type": "threshold",
+      "input_count": 108,
+      "output_count": 18,
+      "rejected_count": 90,
+      "value": 0.6
+    },
+    {
+      "image_id": "000001.jpg",
+      "stage": "pnet_nms_scale",
+      "decision_type": "nms",
+      "input_count": 18,
+      "output_count": 6,
+      "rejected_count": 12,
+      "value": 0.5
+    },
+    {
+      "image_id": "000001.jpg",
+      "stage": "pnet_threshold",
+      "decision_type": "threshold",
+      "input_count": 35,
+      "output_count": 11,
+      "rejected_count": 24,
+      "value": 0.6
+    },
+    {
+      "image_id": "000001.jpg",
+      "stage": "pnet_nms_scale",
+      "decision_type": "nms",
+      "input_count": 11,
+      "output_count": 2,
+      "rejected_count": 9,
+      "value": 0.5
+    },
+    {
+      "image_id": "000001.jpg",
+      "stage": "pnet_threshold",
+      "decision_type": "threshold",
+      "input_count": 8,
+      "output_count": 4,
+      "rejected_count": 4,
+      "value": 0.6
+    },
+    {
+      "image_id": "000001.jpg",
+      "stage": "pnet_nms_scale",
+      "decision_type": "nms",
+      "input_count": 4,
+      "output_count": 1,
+      "rejected_count": 3,
+      "value": 0.5
+    },
+    {
+      "image_id": "000001.jpg",
+      "stage": "pnet_nms_cross",
+      "decision_type": "nms",
+      "input_count": 54,
+      "output_count": 54,
+      "rejected_count": 0,
+      "value": 0.7
+    },
+    {
+      "image_id": "000001.jpg",
+      "stage": "rnet_threshold",
+      "decision_type": "threshold",
+      "input_count": 54,
+      "output_count": 9,
+      "rejected_count": 45,
+      "value": 0.7
+    },
+    {
+      "image_id": "000001.jpg",
+      "stage": "rnet_nms",
+      "decision_type": "nms",
+      "input_count": 9,
+      "output_count": 5,
+      "rejected_count": 4,
+      "value": 0.7
+    },
+    {
+      "image_id": "000001.jpg",
+      "stage": "onet_threshold",
+      "decision_type": "threshold",
+      "input_count": 5,
+      "output_count": 5,
+      "rejected_count": 0,
+      "value": 0.7
+    },
+    {
+      "image_id": "000001.jpg",
+      "stage": "onet_nms",
+      "decision_type": "nms",
+      "input_count": 5,
+      "output_count": 1,
+      "rejected_count": 4,
+      "value": 0.7
+    }
+  ]
+}
