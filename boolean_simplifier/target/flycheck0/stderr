@@ -1,0 +1,156 @@
+   0.029835800s  INFO prepare_target{force=false package_id=boolean_simplifier v0.1.0 (C:\Users\shiva\Shiv\enee759\ml-logic-optimization\boolean_simplifier) target="boolean_simplifier"}: cargo::core::compiler::fingerprint: fingerprint error for boolean_simplifier v0.1.0 (C:\Users\shiva\Shiv\enee759\ml-logic-optimization\boolean_simplifier)/Check { test: false }/TargetInner { name: "boolean_simplifier", doc: true, ..: with_path("C:\\Users\\shiva\\Shiv\\enee759\\ml-logic-optimization\\boolean_simplifier\\src\\main.rs", Edition2021) }
+   0.029878600s  INFO prepare_target{force=false package_id=boolean_simplifier v0.1.0 (C:\Users\shiva\Shiv\enee759\ml-logic-optimization\boolean_simplifier) target="boolean_simplifier"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\shiva\Shiv\enee759\ml-logic-optimization\boolean_simplifier\target\debug\.fingerprint\boolean_simplifier-ee334a942467c447\bin-boolean_simplifier`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.036289700s  INFO prepare_target{force=false package_id=egg v0.9.5 target="egg"}: cargo::core::compiler::fingerprint: fingerprint error for egg v0.9.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("egg", ["lib"], "C:\\Users\\shiva\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egg-0.9.5\\src\\lib.rs", Edition2018) }
+   0.036313500s  INFO prepare_target{force=false package_id=egg v0.9.5 target="egg"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\shiva\Shiv\enee759\ml-logic-optimization\boolean_simplifier\target\debug\.fingerprint\egg-5656a659b7272fbf\lib-egg`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.037914700s  INFO prepare_target{force=false package_id=indexmap v1.9.3 target="indexmap"}: cargo::core::compiler::fingerprint: fingerprint error for indexmap v1.9.3/Check { test: false }/TargetInner { name_inferred: true, benched: false, ..: lib_target("indexmap", ["lib"], "C:\\Users\\shiva\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\indexmap-1.9.3\\src\\lib.rs", Edition2021) }
+   0.037930000s  INFO prepare_target{force=false package_id=indexmap v1.9.3 target="indexmap"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\shiva\Shiv\enee759\ml-logic-optimization\boolean_simplifier\target\debug\.fingerprint\indexmap-7a622a8f7c8d5656\lib-indexmap`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.038829500s  INFO prepare_target{force=false package_id=indexmap v1.9.3 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for indexmap v1.9.3/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\shiva\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\indexmap-1.9.3\\build.rs", Edition2021) }
+   0.038846000s  INFO prepare_target{force=false package_id=indexmap v1.9.3 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\shiva\Shiv\enee759\ml-logic-optimization\boolean_simplifier\target\debug\.fingerprint\indexmap-9af9337a97fdad0d\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.041542800s  INFO prepare_target{force=false package_id=boolean_simplifier v0.1.0 (C:\Users\shiva\Shiv\enee759\ml-logic-optimization\boolean_simplifier) target="boolean_simplifier"}: cargo::core::compiler::fingerprint: fingerprint error for boolean_simplifier v0.1.0 (C:\Users\shiva\Shiv\enee759\ml-logic-optimization\boolean_simplifier)/Check { test: true }/TargetInner { name: "boolean_simplifier", doc: true, ..: with_path("C:\\Users\\shiva\\Shiv\\enee759\\ml-logic-optimization\\boolean_simplifier\\src\\main.rs", Edition2021) }
+   0.041568700s  INFO prepare_target{force=false package_id=boolean_simplifier v0.1.0 (C:\Users\shiva\Shiv\enee759\ml-logic-optimization\boolean_simplifier) target="boolean_simplifier"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\shiva\Shiv\enee759\ml-logic-optimization\boolean_simplifier\target\debug\.fingerprint\boolean_simplifier-9ea4a2ce0bc86851\test-bin-boolean_simplifier`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   Compiling indexmap v1.9.3
+error: failed to run custom build command for `indexmap v1.9.3`
+note: To improve backtraces for build dependencies, set the CARGO_PROFILE_DEV_BUILD_OVERRIDE_DEBUG=true environment variable to enable debug information generation.
+
+Caused by:
+  could not execute process `C:\Users\shiva\Shiv\enee759\ml-logic-optimization\boolean_simplifier\target\debug\build\indexmap-27fe79d0c1f96a0e\build-script-build` (never executed)
+
+Caused by:
+  An Application Control policy has blocked this file. (os error 4551)
