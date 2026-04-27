@@ -1,0 +1,11 @@
+{
+  "total_images": 50,
+  "processed": 50,
+  "skipped": 0,
+  "matches": 48,
+  "mismatches": 2,
+  "match_rate": 96.0,
+  "max_box_diff": 422.31145095825195,
+  "mean_box_diff": 9.00894952327647,
+  "face_count_diffs": []
+}
