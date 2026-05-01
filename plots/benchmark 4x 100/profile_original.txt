@@ -1,0 +1,38 @@
+         3832159 function calls (3800633 primitive calls) in 59.808 seconds
+
+   Ordered by: cumulative time
+   List reduced from 208 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      100    0.001    0.000   58.852    0.589 C:\Users\shiva\Shiv\enee759\ml-logic-optimization\scripts\mtcnn_benchmark.py:72(run_original)
+      100    0.015    0.000   58.851    0.589 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\facenet_pytorch\models\mtcnn.py:272(detect)
+      100    6.327    0.063   58.826    0.588 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\facenet_pytorch\models\utils\detect_face.py:25(detect_face)
+17108/1430    0.067    0.000   28.999    0.020 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py:1507(_wrapped_call_impl)
+17108/1430    0.151    0.000   28.990    0.020 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py:1513(_call_impl)
+      200    0.016    0.000   19.667    0.098 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\facenet_pytorch\models\utils\detect_face.py:16(fixed_batch_process)
+   102341    0.184    0.000   19.493    0.000 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\facenet_pytorch\models\utils\detect_face.py:304(imresample)
+   102341    1.118    0.000   19.309    0.000 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\functional.py:3829(interpolate)
+   102341    0.321    0.000   17.385    0.000 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\functional.py:1221(adaptive_avg_pool2d)
+   102341   16.079    0.000   16.079    0.000 {built-in method torch._C._nn.adaptive_avg_pool2d}
+      226    0.101    0.000   12.546    0.056 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\facenet_pytorch\models\mtcnn.py:82(forward)
+     6598    0.042    0.000   11.303    0.002 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\conv.py:459(forward)
+     6598    0.034    0.000   11.249    0.002 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\conv.py:451(_conv_forward)
+     6598   11.215    0.002   11.215    0.002 {built-in method torch.conv2d}
+     1104    0.145    0.000    9.331    0.008 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\facenet_pytorch\models\mtcnn.py:37(forward)
+     1856    0.015    0.000    8.901    0.005 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\pooling.py:163(forward)
+1996/1926    0.014    0.000    8.893    0.005 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_jit_internal.py:489(fn)
+     1856    0.012    0.000    8.873    0.005 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\functional.py:774(_max_pool2d)
+     1856    8.858    0.005    8.858    0.005 {built-in method torch.max_pool2d}
+     4716    0.027    0.000    7.351    0.002 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\activation.py:1363(forward)
+     4716    7.318    0.002    7.318    0.002 {built-in method torch.prelu}
+      100    0.050    0.001    7.080    0.071 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\facenet_pytorch\models\mtcnn.py:135(forward)
+     1304    0.036    0.000    1.383    0.001 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torchvision\ops\boxes.py:44(batched_nms)
+     1304    0.010    0.000    1.311    0.001 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py:1236(wrapper)
+     1130    0.018    0.000    1.067    0.001 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torchvision\ops\boxes.py:13(nms)
+     1130    0.004    0.000    1.031    0.001 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_ops.py:750(__call__)
+     1130    1.027    0.001    1.027    0.001 {built-in method torch._ops.torchvision.nms}
+      100    0.003    0.000    0.894    0.009 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py:874(convert)
+     1104    0.611    0.001    0.867    0.001 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\facenet_pytorch\models\utils\detect_face.py:203(generateBoundingBox)
+   102341    0.602    0.000    0.841    0.000 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\utils.py:33(_list_with_default)
+
+

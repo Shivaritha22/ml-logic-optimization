@@ -1,0 +1,19 @@
+[package]
+name = "boolean_simplifier"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+egg = "0.9.4"
+
+# ── Two binaries ──────────────────────────────────────────────────────────────
+# cargo run --bin simplify   → egg equality saturation (existing main.rs)
+# cargo run --bin verify     → exhaustive equivalence verifier (verify.rs)
+
+[[bin]]
+name = "simplify"
+path = "src/main.rs"
+
+[[bin]]
+name = "verify"
+path = "src/verify.rs"

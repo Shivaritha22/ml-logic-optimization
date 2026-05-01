@@ -1,0 +1,38 @@
+         3825459 function calls (3793962 primitive calls) in 61.145 seconds
+
+   Ordered by: cumulative time
+   List reduced from 195 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      100    0.118    0.001   60.223    0.602 C:\Users\shiva\Shiv\enee759\ml-logic-optimization\scripts\mtcnn_benchmark.py:76(run_simplified)
+      100    6.486    0.065   59.460    0.595 C:\Users\shiva\Shiv\enee759\ml-logic-optimization\src\mtcnn\simplified_mtcnn.py:34(detect_face_simplified)
+17108/1430    0.067    0.000   29.629    0.021 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py:1507(_wrapped_call_impl)
+17108/1430    0.151    0.000   29.620    0.021 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\module.py:1513(_call_impl)
+      200    0.018    0.000   20.294    0.101 C:\Users\shiva\Shiv\enee759\ml-logic-optimization\src\mtcnn\simplified_mtcnn.py:25(fixed_batch_process)
+   102341    0.201    0.000   20.054    0.000 C:\Users\shiva\Shiv\enee759\ml-logic-optimization\src\mtcnn\simplified_mtcnn.py:333(imresample)
+   102341    1.196    0.000   19.853    0.000 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\functional.py:3829(interpolate)
+   102341    0.340    0.000   17.793    0.000 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\functional.py:1221(adaptive_avg_pool2d)
+   102341   16.408    0.000   16.408    0.000 {built-in method torch._C._nn.adaptive_avg_pool2d}
+      226    0.109    0.000   13.098    0.058 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\facenet_pytorch\models\mtcnn.py:82(forward)
+     6598    0.043    0.000   11.608    0.002 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\conv.py:459(forward)
+     6598    0.036    0.000   11.552    0.002 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\conv.py:451(_conv_forward)
+     6598   11.516    0.002   11.516    0.002 {built-in method torch.conv2d}
+     1104    0.143    0.000    9.334    0.008 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\facenet_pytorch\models\mtcnn.py:37(forward)
+     1856    0.016    0.000    8.975    0.005 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\pooling.py:163(forward)
+1938/1897    0.014    0.000    8.963    0.005 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_jit_internal.py:489(fn)
+     1856    0.012    0.000    8.946    0.005 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\functional.py:774(_max_pool2d)
+     1856    8.931    0.005    8.931    0.005 {built-in method torch.max_pool2d}
+     4716    0.030    0.000    7.591    0.002 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\activation.py:1363(forward)
+     4716    7.556    0.002    7.556    0.002 {built-in method torch.prelu}
+      100    0.050    0.001    7.154    0.072 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\facenet_pytorch\models\mtcnn.py:135(forward)
+   102341    0.638    0.000    0.891    0.000 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\nn\modules\utils.py:33(_list_with_default)
+      100    0.003    0.000    0.856    0.009 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py:874(convert)
+     1104    0.591    0.001    0.836    0.001 C:\Users\shiva\Shiv\enee759\ml-logic-optimization\src\mtcnn\simplified_mtcnn.py:235(generateBoundingBox)
+     1204    0.034    0.000    0.821    0.001 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torchvision\ops\boxes.py:44(batched_nms)
+     1204    0.008    0.000    0.752    0.001 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\jit\_trace.py:1236(wrapper)
+      200    0.010    0.000    0.745    0.004 C:\Users\shiva\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\ImageFile.py:175(load)
+      252    0.688    0.003    0.688    0.003 {method 'decode' of 'ImagingDecoder' objects}
+   102641    0.676    0.000    0.676    0.000 {method 'unsqueeze' of 'torch._C.TensorBase' objects}
+      300    0.450    0.001    0.639    0.002 {built-in method numpy.array}
+
+
