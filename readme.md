@@ -64,22 +64,35 @@ WIDER_val/images/
 
 ## Project Structure
 
-Expected directory layout:
-
 ```text
-project-root/
-├── img_align_celeba/
-├── WIDER_val/
-│   └── images/
+ml-logic-optimization/
+├── baseline/                        # saved outputs and benchmark results
+├── boolean_simplifier/              # Rust egg prover and exhaustive verifier
+│   ├── src/
+│   │   ├── analysis.py              # parses trace and identifies redundant decisions
+│   │   ├── main.rs                  # egg equality saturation proof
+│   │   └── verify.rs                # exhaustive equivalence verifier
+│   ├── main Cargo.toml              # simplify binary config
+│   └── verify Cargo.toml            # verify binary config
+├── data/                            # CelebA and WIDER FACE datasets
+├── docs/                            # decision point map
+├── logs/                            # MTCNN trace files from profiling
+├── outputs/                         # validation results
+├── plots/                           # all generated charts
 ├── scripts/
-├── tests/
+│   ├── analyze_plot.py              # profiling plots and dominance matrix
+│   ├── baseline.py                  # saves original pipeline outputs
+│   ├── dominance_matrix.py          # computes decision dominance relationships
+│   ├── mtcnn_benchmark.py           # benchmarks original vs simplified
+│   └── run_profiling.py             # instruments and traces MTCNN
 ├── src/
-├── boolean_simplifier/
-├── baseline/
-├── logs/
-└── plots/
+│   ├── mtcnn/                       # original and simplified pipeline
+│   ├── profiling/                   # trace wrapper and instrumentation
+│   └── validation/                  # validator comparing outputs to baseline
+└── tests/
+    ├── smoke_test.py                # end-to-end MTCNN smoke test
+    └── smoke_simplified_mtcnn.py    # smoke test for simplified pipeline
 ```
-
 ---
 
 ## Pipeline Overview
