@@ -382,4 +382,46 @@ Therefore, the simplified MTCNN pipeline is behavior-preserving, formally verifi
 
 ---
 
+## Demo Run
+
+Run the demo on a single image to verify that both pipelines produce identical detections.
+
+```bash
+python scripts/demo_run.py
+```
+
+Output:
+
+```text
+============================================================
+ MTCNN Pipeline Demo Run
+============================================================
+ Image: 30--Surgeons/30_Surgeons_Surgeons_30_979.jpg
+
+Original pipeline:
+  Faces detected : 1
+  Box 1          : [322.0, 189.8, 743.8, 798.4]
+
+Simplified pipeline:
+  Faces detected : 1
+  Box 1          : [322.0, 189.8, 743.8, 798.4]
+
+egg proof:
+  Input : (and A (and B (and true (and D (and E (and F G))))))
+  Output: (and A (and B (and D (and E (and F G)))))
+  Rule  : X AND TRUE = X
+
+Verifier: VERIFIED — all 64 inputs (C=TRUE) match
+============================================================
+Saved: demo/demo_results.json
+```
+
+Both pipelines detect the same face at identical coordinates.
+
+Results are saved to:
+
+```text
+demo/demo_results.json
+```
+
 
