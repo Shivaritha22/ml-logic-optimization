@@ -1,0 +1,14 @@
+{
+  "image": "30--Surgeons/30_Surgeons_Surgeons_30_979.jpg",
+  "orig_ms": 228.43,
+  "simp_ms": 240.29,
+  "speedup_pct": -5.2,
+  "orig_faces": 1,
+  "simp_faces": 1,
+  "egg_proof": {
+    "input": "(and A (and B (and true (and D (and E (and F G))))))",
+    "output": "(and A (and B (and D (and E (and F G)))))",
+    "rule": "X AND TRUE = X"
+  },
+  "verifier": "VERIFIED \u2014 all 64 inputs (C=TRUE) match"
+}

@@ -211,8 +211,8 @@ def detect_face_simplified(imgs, minsize, pnet, rnet, onet, threshold, factor, d
     # ---------------------------------------------------------------
     # Output (unchanged)
     # ---------------------------------------------------------------
-    boxes = boxes.cpu().numpy()
-    points = points.cpu().numpy()
+    boxes = boxes.detach().cpu().numpy()
+    points = points.detach().cpu().numpy()
     image_inds = image_inds.cpu()
 
     batch_boxes = []
@@ -301,14 +301,15 @@ def batched_nms_numpy(boxes, scores, idxs, threshold, method):
     max_coordinate = boxes.max()
     offsets = idxs.to(boxes) * (max_coordinate + 1)
     boxes_for_nms = boxes + offsets[:, None]
-    boxes_for_nms = boxes_for_nms.cpu().numpy()
-    scores = scores.cpu().numpy()
+    #boxes_for_nms = boxes_for_nms.detach().cpu().numpy()
+    boxes_for_nms = boxes_for_nms.detach().detach().cpu().numpy()
+    scores = scores.detach().cpu().numpy()
     keep = nms_numpy(boxes_for_nms, scores, threshold, method)
     return torch.as_tensor(keep, dtype=torch.long, device=device)
 
 
 def pad(boxes, w, h):
-    boxes = boxes.trunc().int().cpu().numpy()
+    boxes = boxes.trunc().int().detach().cpu().numpy()
     x = boxes[:, 0]
     y = boxes[:, 1]
     ex = boxes[:, 2]
